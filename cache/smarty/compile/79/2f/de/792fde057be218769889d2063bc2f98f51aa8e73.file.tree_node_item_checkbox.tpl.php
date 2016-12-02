@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-01 08:24:25
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-01 23:17:17
          compiled from "C:\wamp\www\prestashop\admin0264jcipa\themes\default\template\helpers\tree\tree_node_item_checkbox.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:96058402489821b27-26988467%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:148525840f5cd9dbaa6-60413509%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '96058402489821b27-26988467',
+  'nocache_hash' => '148525840f5cd9dbaa6-60413509',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_584024899112e5_04281823',
+  'unifunc' => 'content_5840f5cdb31516_83322634',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_584024899112e5_04281823')) {function content_584024899112e5_04281823($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5840f5cdb31516_83322634')) {function content_5840f5cdb31516_83322634($_smarty_tpl) {?>
 <li class="tree-item<?php if (isset($_smarty_tpl->tpl_vars['node']->value['disabled'])&&$_smarty_tpl->tpl_vars['node']->value['disabled']==true) {?> tree-item-disable<?php }?>">
 	<span class="tree-item-name<?php if (isset($_smarty_tpl->tpl_vars['node']->value['disabled'])&&$_smarty_tpl->tpl_vars['node']->value['disabled']==true) {?> tree-item-name-disable<?php }?>">
 		<input type="checkbox" name="<?php echo $_smarty_tpl->tpl_vars['input_name']->value;?>

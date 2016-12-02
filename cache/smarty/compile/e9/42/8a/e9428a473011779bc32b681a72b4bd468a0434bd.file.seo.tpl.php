@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-01 08:24:24
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-01 23:17:17
          compiled from "C:\wamp\www\prestashop\admin0264jcipa\themes\default\template\controllers\products\seo.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3158958402488d1f266-70877789%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:165875840f5cd947bb1-89181338%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3158958402488d1f266-70877789',
+  'nocache_hash' => '165875840f5cd947bb1-89181338',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58402489080950_97203346',
+  'unifunc' => 'content_5840f5cdc3b121_83361314',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58402489080950_97203346')) {function content_58402489080950_97203346($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5840f5cdc3b121_83361314')) {function content_5840f5cdc3b121_83361314($_smarty_tpl) {?>
 <div id="product-seo" class="panel product-tab">
 	<input type="hidden" name="submitted_tabs[]" value="Seo" />
 	<h3><?php echo smartyTranslate(array('s'=>'SEO'),$_smarty_tpl);?>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-01 13:04:31
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-01 23:13:37
          compiled from "C:\wamp\www\prestashop\themes\default-bootstrap\modules\blocksocial\blocksocial.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7483584011cfbd1aa5-59517322%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:107825840f4f1537777-77197435%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7483584011cfbd1aa5-59517322',
+  'nocache_hash' => '107825840f4f1537777-77197435',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_584011cfdef973_13327710',
+  'unifunc' => 'content_5840f4f16800d3_36935111',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_584011cfdef973_13327710')) {function content_584011cfdef973_13327710($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5840f4f16800d3_36935111')) {function content_5840f4f16800d3_36935111($_smarty_tpl) {?>
 <section id="social_block" class="pull-right">
 	<ul>
 		<?php if (isset($_smarty_tpl->tpl_vars['facebook_url']->value)&&$_smarty_tpl->tpl_vars['facebook_url']->value!='') {?>

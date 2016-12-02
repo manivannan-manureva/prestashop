@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-12-01 08:24:23
+<?php /* Smarty version Smarty-3.1.19, created on 2016-12-01 23:17:15
          compiled from "C:\wamp\www\prestashop\admin0264jcipa\themes\default\template\layout-ajax.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:174565840248776fc37-63367649%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:39945840f5cbe7a550-78030271%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '174565840248776fc37-63367649',
+  'nocache_hash' => '39945840f5cbe7a550-78030271',
   'function' => 
   array (
   ),
@@ -33,9 +33,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5840248798b8e5_75964345',
+  'unifunc' => 'content_5840f5cc25e475_43176382',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5840248798b8e5_75964345')) {function content_5840248798b8e5_75964345($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5840f5cc25e475_43176382')) {function content_5840f5cc25e475_43176382($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['json']->value)) {?>
 {<?php if (isset($_smarty_tpl->tpl_vars['status']->value)&&is_string($_smarty_tpl->tpl_vars['status']->value)&&trim($_smarty_tpl->tpl_vars['status']->value)!='') {?><?php $_smarty_tpl->tpl_vars['hasresult'] = new Smarty_variable('ok', null, 0);?>"status" : "<?php echo $_smarty_tpl->tpl_vars['status']->value;?>
 "<?php }?><?php if (isset($_smarty_tpl->tpl_vars['confirmations']->value)&&count($_smarty_tpl->tpl_vars['confirmations']->value)>0) {?><?php if ($_smarty_tpl->tpl_vars['hasresult']->value=='ok') {?>,<?php }?><?php $_smarty_tpl->tpl_vars['hasresult'] = new Smarty_variable('ok', null, 0);?>"confirmations" : <?php echo $_smarty_tpl->tpl_vars['confirmations']->value;?>
